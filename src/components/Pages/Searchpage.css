@@ -1,0 +1,8 @@
+.dis {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-image {
+  justify-content: center;
+}

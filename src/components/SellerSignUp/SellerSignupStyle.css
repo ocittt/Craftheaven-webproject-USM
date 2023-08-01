@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.signup-title {
+  font-weight: 500;
+  font-size: 30px;
+  position: absolute;
+  top: -90px;
+}
+
+.seller-signup-desc {
+  font-weight: 400;
+  font-size: 15px;
+  position: absolute;
+  top: -25px;
+  color: #555;
+}
+
+.signup-seller {
+  position: relative;
+  top: -30px;
+}
+
+.logo-title {
+  font-weight: 500;
+  font-size: 30px;
+  left: 90px;
+  top: 20px;
+  position: absolute;
+}
+
+.candles {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+
+.username-logo {
+  position: absolute;
+  top: 17px;
+  left: 12px;
+}
+
+.signup-email-logo {
+  position: absolute;
+  top: 119px;
+  left: 12px;
+}
+
+.signup-passkey-logo {
+  position: absolute;
+  top: 215px;
+  left: 12px;
+}
+
+.signup-phonenum-logo {
+  position: absolute;
+  top: 315px;
+  left: 12px;
+}
+
+.signup-store-logo {
+  position: absolute;
+  top: 406px;
+  left: 12px;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"],
+[type="tel"],
+[type="file"] {
+  color: #555;
+  border-radius: 8px;
+  padding-left: 32px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-style: bold;
+  font-weight: 400;
+  font-size: medium;
+  margin-block-end: 7px;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  height: 60px;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+[type="password"]:focus,
+[type="tel"]:focus,
+[type="file"]:focus {
+  border: 3px solid black;
+}
+
+.seller-signup-form {
+  display: block;
+  position: absolute;
+  top: 190px;
+  left: 180px;
+}
+
+.seller-signup-form .seller-signup-form-inner {
+  position: relative;
+  display: block;
+  background-color: white;
+  top: -10px;
+}
+
+.seller-signup-form .seller-signup-form-inner .seller-signup-form-group {
+  display: block;
+}
+
+.seller-signup-form .seller-signup-form-inner .seller-signup-form-group input {
+  display: block;
+  width: 100%;
+  padding-left: 40px;
+  background-color: white;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.signup-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-left: -3px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: large;
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+}
